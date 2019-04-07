@@ -8,4 +8,14 @@
 <fullyQualifiedTypeName name="com.springboot.chapter3.pojo.User"/>
 <fullyQualifiedTypeName name="java.security.Provider.Service"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="com.springboot.chapter3.pojo.definition.Person"/>
+<fullyQualifiedTypeName name="com.springboot.chapter3.pojo.DataBaseProperties"/>
+<fullyQualifiedTypeName name="javax.activation.DataSource"/>
+<fullyQualifiedTypeName name="javax.sql.DataSource"/>
+<fullyQualifiedTypeName name="org.apache.commons.dbcp2.BasicDataSourceFactory"/>
+<fullyQualifiedTypeName name="org.springframework.core.env.Environment"/>
+<fullyQualifiedTypeName name="com.springboot.chapter3.condition.DataBaseConditional"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.config.ConfigurableBeanFactory"/>
+<fullyQualifiedTypeName name="com.springboot.chapter3.pojo.ScopeBean"/>
+<fullyQualifiedTypeName name="org.springframework.web.context.WebApplicationContext"/>
 </qualifiedTypeNameHistroy>
