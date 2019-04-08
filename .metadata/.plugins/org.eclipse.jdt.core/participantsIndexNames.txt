@@ -1,6 +1,10 @@
 INDEX VERSION 1.131
+/Users/xiaoqiangliu/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/296733680.index
+/chapter3-spring-profile/src/main/java
 /Users/xiaoqiangliu/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3410534932.index
 /chapter3-ioc-bean-component-scan/src/main/java
+/Users/xiaoqiangliu/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3140601653.index
+/chapter3-profile-config/src/main/java
 /Users/xiaoqiangliu/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/973468772.index
 /chapter3-ioc-bean-java-config/src/main/java
 /Users/xiaoqiangliu/Documents/workspace-spring-tool-suite-4-4.1.2.RELEASE/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3126676341.index

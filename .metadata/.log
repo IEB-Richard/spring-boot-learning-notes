@@ -1572,3 +1572,853 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.eclipse.core.jobs 2 2 2019-04-08 06:55:09.113
 !MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.springframework.tooling.ls.eclipse.commons.STS4LanguageServerProcessStreamConnector$1
+!SESSION 2019-04-08 19:59:48.196 -----------------------------------------------
+eclipse.buildId=4.2.0.201903290612-RELEASE
+java.version=1.8.0_65
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4 -keyring /Users/xiaoqiangliu/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springframework.boot.ide.branding.sts4 -keyring /Users/xiaoqiangliu/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-08 19:59:58.051
+!MESSAGE System property http.proxyHost has been set to 127.0.0.1 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-08 19:59:58.052
+!MESSAGE System property http.proxyPort has been set to 1087 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-08 19:59:58.053
+!MESSAGE System property http.nonProxyHosts has been set to 127.0.0.1|localhost|*.localhost by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-08 19:59:58.055
+!MESSAGE System property https.proxyHost has been set to 127.0.0.1 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-08 19:59:58.056
+!MESSAGE System property https.proxyPort has been set to 1087 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-08 19:59:58.057
+!MESSAGE System property socksProxyHost has been set to 127.0.0.1 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.core.net 1 0 2019-04-08 19:59:58.058
+!MESSAGE System property socksProxyPort has been set to 1086 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-04-08 19:59:58.150
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-04-08 19:59:59.575
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-04-08 19:59:59.575
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5a57cf90,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4d16975b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:10.617
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:10.619
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@1315d910[org.springframework.tooling.boot.ls:1.5.0.201903290544(id=935)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:10.620
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:10.798
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.345
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.bFLZYLHA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.347
+!MESSAGE subscribing to classpath changes: sts4.classpath.bFLZYLHA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.354
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.356
+!MESSAGE subsribers = [sts4.classpath.bFLZYLHA]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.357
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.369
+!MESSAGE project chapter3-bean-scope ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.374
+!MESSAGE Preparing classpath changed notification chapter3-bean-scope
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.375
+!MESSAGE project chapter2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.376
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.377
+!MESSAGE project chapter2-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.380
+!MESSAGE project chapter3-dependency-injection01 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.383
+!MESSAGE project chapter3-dependency-injection02 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.383
+!MESSAGE project chapter3-dependency-injection03-properties ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.384
+!MESSAGE project chapter3-dependency-injection04-conditional ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.385
+!MESSAGE project chapter3-ioc-bean-componentscan ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.386
+!MESSAGE project chapter3-ioc-bean-java-config ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.387
+!MESSAGE project chapter3-ioc-inject-thirdparty-beans ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.387
+!MESSAGE project chapter3-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.388
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.389
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.bFLZYLHA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.403
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.404
+!MESSAGE executing callback sts4.classpath.bFLZYLHA chapter3-bean-scope false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.519
+!MESSAGE executing callback sts4.classpath.bFLZYLHA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.520
+!MESSAGE Preparing classpath changed notification chapter3-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.521
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.525
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.526
+!MESSAGE executing callback sts4.classpath.bFLZYLHA chapter3-solution false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.789
+!MESSAGE executing callback sts4.classpath.bFLZYLHA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.790
+!MESSAGE Preparing classpath changed notification chapter3-ioc-inject-thirdparty-beans
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.790
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.795
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.795
+!MESSAGE executing callback sts4.classpath.bFLZYLHA chapter3-ioc-inject-thirdparty-beans false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.811
+!MESSAGE executing callback sts4.classpath.bFLZYLHA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.812
+!MESSAGE Preparing classpath changed notification chapter3-ioc-bean-java-config
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.812
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.817
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.818
+!MESSAGE executing callback sts4.classpath.bFLZYLHA chapter3-ioc-bean-java-config false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.912
+!MESSAGE executing callback sts4.classpath.bFLZYLHA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.913
+!MESSAGE Preparing classpath changed notification chapter3-ioc-bean-componentscan
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.914
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.918
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.918
+!MESSAGE executing callback sts4.classpath.bFLZYLHA chapter3-ioc-bean-componentscan false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.981
+!MESSAGE executing callback sts4.classpath.bFLZYLHA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.982
+!MESSAGE Preparing classpath changed notification chapter3-dependency-injection04-conditional
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.982
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.986
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:23.987
+!MESSAGE executing callback sts4.classpath.bFLZYLHA chapter3-dependency-injection04-conditional false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.005
+!MESSAGE executing callback sts4.classpath.bFLZYLHA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.005
+!MESSAGE Preparing classpath changed notification chapter3-dependency-injection03-properties
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.006
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.010
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.011
+!MESSAGE executing callback sts4.classpath.bFLZYLHA chapter3-dependency-injection03-properties false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.023
+!MESSAGE executing callback sts4.classpath.bFLZYLHA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.024
+!MESSAGE Preparing classpath changed notification chapter3-dependency-injection02
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.025
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.028
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.029
+!MESSAGE executing callback sts4.classpath.bFLZYLHA chapter3-dependency-injection02 false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.041
+!MESSAGE executing callback sts4.classpath.bFLZYLHA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.042
+!MESSAGE Preparing classpath changed notification chapter3-dependency-injection01
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.043
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.046
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.047
+!MESSAGE executing callback sts4.classpath.bFLZYLHA chapter3-dependency-injection01 false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.059
+!MESSAGE executing callback sts4.classpath.bFLZYLHA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.059
+!MESSAGE Preparing classpath changed notification chapter2-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.060
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.064
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.065
+!MESSAGE executing callback sts4.classpath.bFLZYLHA chapter2-solution false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.130
+!MESSAGE executing callback sts4.classpath.bFLZYLHA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.130
+!MESSAGE Preparing classpath changed notification chapter2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.131
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.135
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.136
+!MESSAGE executing callback sts4.classpath.bFLZYLHA chapter2 false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:00:24.157
+!MESSAGE executing callback sts4.classpath.bFLZYLHA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:01:21.532
+!MESSAGE Preparing classpath changed notification chapter3-profile-config
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:01:21.533
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:01:21.536
+!MESSAGE classpath=22 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:01:21.536
+!MESSAGE executing callback sts4.classpath.bFLZYLHA chapter3-profile-config false 22
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:01:21.558
+!MESSAGE executing callback sts4.classpath.bFLZYLHA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:01:29.129
+!MESSAGE Preparing classpath changed notification chapter3-profile-config
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:01:29.131
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:01:29.134
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:01:29.135
+!MESSAGE executing callback sts4.classpath.bFLZYLHA chapter3-profile-config false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:01:29.152
+!MESSAGE executing callback sts4.classpath.bFLZYLHA SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:05:07.649
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bFLZYLHA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:05:07.651
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.bFLZYLHA
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:05:07.652
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:05:07.652
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.bFLZYLHA => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.546
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VHEdXzUB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.548
+!MESSAGE subscribing to classpath changes: sts4.classpath.VHEdXzUB
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.549
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.549
+!MESSAGE subsribers = [sts4.classpath.VHEdXzUB]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.550
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.551
+!MESSAGE project chapter3-profile-config ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.552
+!MESSAGE Preparing classpath changed notification chapter3-profile-config
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.552
+!MESSAGE project chapter2 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.553
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.553
+!MESSAGE project chapter2-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.554
+!MESSAGE project chapter3-bean-scope ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.554
+!MESSAGE project chapter3-dependency-injection01 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.555
+!MESSAGE project chapter3-dependency-injection02 ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.555
+!MESSAGE project chapter3-dependency-injection03-properties ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.556
+!MESSAGE project chapter3-dependency-injection04-conditional ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.556
+!MESSAGE project chapter3-ioc-bean-componentscan ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.557
+!MESSAGE project chapter3-ioc-bean-java-config ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.557
+!MESSAGE project chapter3-ioc-inject-thirdparty-beans ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.558
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.558
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-profile-config false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.559
+!MESSAGE project chapter3-solution ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.560
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.560
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.VHEdXzUB => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.626
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.627
+!MESSAGE Preparing classpath changed notification chapter3-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.629
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.633
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.633
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-solution false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.685
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.691
+!MESSAGE Preparing classpath changed notification chapter3-ioc-inject-thirdparty-beans
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.692
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.707
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.708
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-ioc-inject-thirdparty-beans false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.768
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.770
+!MESSAGE Preparing classpath changed notification chapter3-ioc-bean-java-config
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.771
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.776
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.783
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-ioc-bean-java-config false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.836
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.841
+!MESSAGE Preparing classpath changed notification chapter3-ioc-bean-componentscan
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.842
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.847
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.850
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-ioc-bean-componentscan false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.868
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.869
+!MESSAGE Preparing classpath changed notification chapter3-dependency-injection04-conditional
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.870
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.874
+!MESSAGE classpath=85 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.875
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-dependency-injection04-conditional false 85
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.898
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.899
+!MESSAGE Preparing classpath changed notification chapter3-dependency-injection03-properties
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.900
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.903
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.904
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-dependency-injection03-properties false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.977
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.978
+!MESSAGE Preparing classpath changed notification chapter3-dependency-injection02
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.978
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.982
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:15.997
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-dependency-injection02 false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.008
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.009
+!MESSAGE Preparing classpath changed notification chapter3-dependency-injection01
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.009
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.013
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.013
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-dependency-injection01 false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.025
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.025
+!MESSAGE Preparing classpath changed notification chapter3-bean-scope
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.026
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.031
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.031
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-bean-scope false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.049
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.050
+!MESSAGE Preparing classpath changed notification chapter2-solution
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.051
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.054
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.055
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter2-solution false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.064
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.065
+!MESSAGE Preparing classpath changed notification chapter2
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.066
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.070
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.071
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter2 false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:16.088
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:23.907
+!MESSAGE Preparing classpath changed notification chapter3-profile-config
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:23.908
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:23.909
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-profile-config true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:23.918
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:47.063
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:47.065
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:47.067
+!MESSAGE classpath=22 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:47.067
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 22
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:47.081
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:50.261
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:50.262
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:50.266
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:50.266
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:06:50.300
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:07:02.617
+!MESSAGE Preparing classpath changed notification chapter3-profile-config
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:07:02.619
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:07:02.620
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:07:02.620
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-profile-config false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:07:02.627
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:07:15.176
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:07:15.177
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:07:15.180
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:07:15.197
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:07:24.025
+!MESSAGE Preparing classpath changed notification chapter3-profile-config
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:07:24.026
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:07:24.026
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-profile-config true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:07:24.030
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:31.564
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:31.565
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:31.567
+!MESSAGE classpath=1 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:31.568
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 1
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:31.583
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:31.997
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:31.999
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:32.002
+!MESSAGE classpath=80 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:32.002
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 80
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:32.058
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:32.895
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:32.896
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:32.899
+!MESSAGE classpath=80 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:32.899
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 80
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:32.916
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.006
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.007
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.010
+!MESSAGE classpath=80 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.014
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 80
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.023
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.087
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.087
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.090
+!MESSAGE classpath=80 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.091
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 80
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.100
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.208
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.209
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.212
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.213
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.220
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.320
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.321
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.324
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.324
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.332
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.406
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.407
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.410
+!MESSAGE classpath=81 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.410
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 81
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.418
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.587
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.588
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.591
+!MESSAGE classpath=80 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.592
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 80
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:33.607
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:37.393
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:37.394
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:37.399
+!MESSAGE classpath=80 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:37.399
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 80
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:37.424
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:37.583
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:37.583
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:37.586
+!MESSAGE classpath=80 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:37.587
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 80
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:10:37.595
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-04-08 20:10:38.224
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-04-08 20:10:38.305
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-04-08 20:11:09.768
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-04-08 20:11:09.822
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-04-08 20:12:08.205
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-04-08 20:12:17.564
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:14:08.854
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:14:08.855
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:14:08.858
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:14:08.858
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:14:09.009
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-04-08 20:14:09.974
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-04-08 20:14:10.019
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
+
+!ENTRY org.eclipse.jdt.apt.pluggable.core 1 1 2019-04-08 20:14:12.873
+!MESSAGE Field value processing of @ConfigurationProperty meta-data is not supported
