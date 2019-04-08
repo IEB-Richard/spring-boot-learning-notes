@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;BussinessPerson.java&apos; to &apos;chapter3-dependency-injection03-properties/src/main/java/com.springboot.chapter3.pojo&apos;&#x0A;- Original project: &apos;chapter3-dependency-injection01&apos;&#x0A;- Destination element: &apos;chapter3-dependency-injection03-properties/src/main/java/com.springboot.chapter3.pojo&apos;&#x0A;- Original element: &apos;com.springboot.chapter3.pojo.BussinessPerson.java&apos;" description="Copy compilation unit" destination="=chapter3-dependency-injection03-properties/src\/main\/java&lt;com.springboot.chapter3.pojo" element1="/src\/main\/java&lt;com.springboot.chapter3.pojo{BussinessPerson.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1554639978761" units="1" version="1.0"/>
-</session>
