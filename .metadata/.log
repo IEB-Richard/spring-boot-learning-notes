@@ -2499,3 +2499,33 @@ Binding(COMMAND+SHIFT+C,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:22:03.074
 !MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:27:59.285
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:27:59.287
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:27:59.292
+!MESSAGE classpath=22 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:27:59.294
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 22
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:27:59.342
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:28:05.014
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:28:05.015
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:28:05.018
+!MESSAGE classpath=82 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:28:05.019
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile false 82
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:28:05.034
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
