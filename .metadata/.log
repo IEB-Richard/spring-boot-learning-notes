@@ -2487,3 +2487,15 @@ Binding(COMMAND+SHIFT+C,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:22:03.049
+!MESSAGE Preparing classpath changed notification chapter3-spring-profile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:22:03.051
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:22:03.051
+!MESSAGE executing callback sts4.classpath.VHEdXzUB chapter3-spring-profile true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-04-08 20:22:03.074
+!MESSAGE executing callback sts4.classpath.VHEdXzUB SUCCESS [done]
