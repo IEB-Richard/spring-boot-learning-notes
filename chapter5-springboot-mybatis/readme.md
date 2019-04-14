@@ -63,7 +63,9 @@ public class AppConfig {
 
 the annotation `@MapperScan(basePackages= {"com.springboot.chapter5.dao"})` define which packages.
 
-You can also don't write this configuation class, instead make configuations in application.properties directly. Please check on another demo project on this solution.
+
+
+You can avoid writting this configuration class. There is another solution that you can make the configutation directly in application.properties files. Please check on another demo project for details.
 
 
 
