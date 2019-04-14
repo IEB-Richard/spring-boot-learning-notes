@@ -45,13 +45,39 @@ A demo project of integration of Springboot and mybatis.
 
 ## Configurations
 
+This demo project make configurations via a configuration class.  
+
+```Java
+package com.springboot.chapter5.config;
+
+import org.mybatis.spring.annotation.MapperScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@MapperScan(basePackages= {"com.springboot.chapter5.dao"})
+public class AppConfig {
+
+}
+
+```
+
+the annotation `@MapperScan(basePackages= {"com.springboot.chapter5.dao"})` define which packages.
+
+You can also don't write this configuation class, instead make configuations in application.properties directly. Please check on another demo project on this solution.
+
+
+
+### application.properties configuration and how it works
+
 make the following configurations in the `application.properties` configuration file
 
 ```properties
+#MySQL Datasource configurations
 spring.datasource.url=jdbc:mysql://localhost:3306/spring_boot_chapter5
 spring.datasource.username=springstudent
 spring.datasource.password=springstudent
 
+# MyBatis Configutations
 mybatis.mapper-locations=classpath:mapper/*.xml
 mybatis.type-aliases-package=com.springboot.chapter5.pojo
 mybatis.type-handlers-package=com.springboot.chapter5.typehandler
@@ -83,8 +109,6 @@ public class User {
   ...
 ```
 
-
-
 then we can use type `user` in the XML mapper file.
 
 ```xml
@@ -97,5 +121,15 @@ then we can use type `user` in the XML mapper file.
 		select id, user_name as userName, sex, note from t_user where id = #{id}
 	</select>
 </mapper> 
+```
+
+
+
+### Type handler
+
+because attribute sex is an type of Enumeration, here we assign one typehanlder class, and did the following configuration in the properties file:
+
+```properties
+mybatis.type-handlers-package=com.springboot.chapter5.typehandler
 ```
 
