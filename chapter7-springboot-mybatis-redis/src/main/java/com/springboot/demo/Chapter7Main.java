@@ -16,8 +16,8 @@ public class Chapter7Main {
 		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(RedisConfig.class);
 		
 		RedisTemplate redisTemplate = ctx.getBean(RedisTemplate.class);
-//		redisTemplate.opsForValue().set("key1", "value1");
-//		redisTemplate.opsForHash().put("hash", "field", "hvalue");
+		redisTemplate.opsForValue().set("key1", "value1");
+		redisTemplate.opsForHash().put("hash", "field", "hvalue");
 		
 		ctx.close();
 	}
